@@ -10,11 +10,11 @@ $ln=@$_POST['ln'];
 $pwd1 = @$_POST["pwd1"];
 $pwd2 = @$_POST["pwd2"];
 
-$hashFormat = "$2y$10$";
-$salt = "firstbusiness2020";
-$hash_and_salt = $hashFormat . $salt;
-$pwd1 = crypt($pwd1, $hash_and_salt);
-$pwd2 = crypt($pwd2, $hash_and_salt);
+// $hashFormat = "$2y$10$";
+// $salt = "firstbusiness2020";
+// $hash_and_salt = $hashFormat . $salt;
+// $pwd1 = crypt($pwd1, $hash_and_salt);
+// $pwd2 = crypt($pwd2, $hash_and_salt);
 
 $email1 = @$_POST["email1"];
 $email2 = @$_POST["email2"];

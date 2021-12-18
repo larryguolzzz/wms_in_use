@@ -146,11 +146,11 @@ if ($totalrow != 0) {
                             <li>
                                 <a class="has-arrow" href="homepage.php">
                                     <i class="icon nalika-home icon-wrap"></i>
-                                    <span class="mini-click-non">Dashboard</span>
+                                    <span class="mini-click-non">仪表盘</span>
                                 </a>
                                 <ul class="submenu-angle" aria-expanded="false">
-                                    <li><a title="Dashboard" href="homepage.php"><span class="mini-sub-pro">Dashboard</span></a></li>                                
-                                    <li><a title="Notification" href="notification.php"><span class="mini-sub-pro">Notification</span></a></li>
+                                    <li><a title="Dashboard" href="homepage.php"><span class="mini-sub-pro">仪表盘</span></a></li>                                
+                                    <li><a title="Notification" href="notification.php"><span class="mini-sub-pro">通知</span></a></li>
                                 </ul>
                             </li>
 
@@ -158,28 +158,28 @@ if ($totalrow != 0) {
                                 <a class="has-arrow" href="product-list.php">
 
                                     <i class="icon nalika-table icon-wrap"></i>
-                                    <span class="mini-click-non">Product</span>
+                                    <span class="mini-click-non">商品信息</span>
                                 </a>
                                 <ul class="submenu-angle" aria-expanded="false">                                   
-                                    <li><a title="Product List" href="product-list.php"><span class="mini-sub-pro">Product List</span></a></li>
-                                    <li><a title="Product Edit" href="product-edit.php"><span class="mini-sub-pro">Product Edit</span></a></li>
-                                    <li><a title="Product Detail" href="product-detail.php"><span class="mini-sub-pro">Product Detail</span></a></li>
+                                    <li><a title="Product List" href="product-list.php"><span class="mini-sub-pro">商品列表</span></a></li>
+                                    <li><a title="Product Edit" href="product-edit.php"><span class="mini-sub-pro">编辑商品</span></a></li>
+                                    <li><a title="Product Detail" href="product-detail.php"><span class="mini-sub-pro">商品详情</span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Export & Import</span></a>
+                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">进/出口</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
                                     <li><a class="has-arrow" title="Import" href="supply.php"><span >Incoming</span></a>
                                         <ul class="submenu-angle" aria-expanded="false">     
                                             <li><a title="Supply" href="supply.php"><span class="mini-sub-pro">Supply & Return(NC)</span></a></li>
-                                            <li><a title="Supply" href="supplysh.php"><span class="mini-sub-pro">Supply & Return(SH)</span></a></li>
+                                            <!-- <li><a title="Supply" href="supplysh.php"><span class="mini-sub-pro">Supply & Return(SH)</span></a></li> -->
                                             <li><a title="Import Stock" href="stockaccept.php"><span class="mini-sub-pro">Import Stock</span></a></li>                                             
                                         </ul>
                                     </li>
                                     <li><a class="has-arrow" title="Export" href="outgoingnc.php"><span >Outgoing</span></a>
                                         <ul class="submenu-angle" aria-expanded="false">   
                                             <li><a title="Order & Replacement" href="outgoingnc.php"><span class="mini-sub-pro">Order & Replace(NC)</span></a></li>
-                                            <li><a title="Order & Replacement" href="outgoingsh.php"><span class="mini-sub-pro">Order & Replace(SH)</span></a></li>
+                                            <!-- <li><a title="Order & Replacement" href="outgoingsh.php"><span class="mini-sub-pro">Order & Replace(SH)</span></a></li> -->
                                             <li><a title="Batch Order" href="add-batch.php"><span class="mini-sub-pro">Batch Order</span></a></li>
                                             <li><a title="Export Stock" href="stocktrans.php"><span class="mini-sub-pro">Export Stock</span></a></li>                                             
                                         </ul>
@@ -187,15 +187,15 @@ if ($totalrow != 0) {
                                 </ul>
                             </li>
                             <li class="active">
-                                <a class="has-arrow" href="inventory-1.php" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">Warehouse</span></a>
+                                <a class="has-arrow" href="inventory-1.php" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">仓库库存</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
-                                    <li><a title="Inventory" href="inventory-1.php"><span class="mini-sub-pro">Inventory</span></a></li>
-                                    <li><a title="Shanghai" href="recordsh.php"><span class="mini-sub-pro">Record SH</span></a></li>
-                                    <li><a title="Greensboro" href="recordnc.php"><span class="mini-sub-pro">Record NC</span></a></li>
+                                    <li><a title="Inventory" href="inventory-1.php"><span class="mini-sub-pro">库存</span></a></li>
+                                    <li><a title="Shanghai" href="recordsh.php"><span class="mini-sub-pro">国内库存</span></a></li>
+                                    <li><a title="Greensboro" href="recordnc.php"><span class="mini-sub-pro">海外仓库存</span></a></li>
                                 </ul>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a class="has-arrow" href="bar-charts.html" aria-expanded="false"><i class="icon nalika-bar-chart icon-wrap"></i> <span class="mini-click-non">Charts</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
                                     <li><a title="Bar Charts" href="bar-charts.html"><span class="mini-sub-pro">Bar Charts</span></a></li>
@@ -206,7 +206,7 @@ if ($totalrow != 0) {
                                     <li><a title="Sparkline Charts" href="sparkline.html"><span class="mini-sub-pro">Sparkline Charts</span></a></li>
                                     <li><a title="Peity Charts" href="peity.html"><span class="mini-sub-pro">Peity Charts</span></a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li>
                                 <a class="has-arrow" href="static-table.html" aria-expanded="false"><i class="icon nalika-table icon-wrap"></i> <span class="mini-click-non">批量发货</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
@@ -385,7 +385,7 @@ if ($totalrow != 0) {
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="product-status-wrap">
-                                <h4>Inventory</h4>
+                                <h4>库存</h4>
 
                                 <div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
@@ -416,17 +416,17 @@ if ($totalrow != 0) {
                                     <table >
 
                                         <tr>
-                                            <th><a style="color: #fff" href="inventory-1.php?column=sku&order=<?php echo $asc_or_desc; ?>">Product SKU <i class=" fa fa-sort<?php echo $column == 'sku' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                            <th><a style="color: #fff" href="inventory-1.php?column=sku&order=<?php echo $asc_or_desc; ?>">商品 SKU <i class=" fa fa-sort<?php echo $column == 'sku' ? '-' . $up_or_down : ''; ?>"></i></a></th>
                                             <th><a style="color: #fff" href="inventory-1.php?column=ram&order=<?php echo $asc_or_desc; ?>">Title<i class="fa fa-sort<?php echo $column == 'ram' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                            <th><a style="color: #fff" href="inventory-1.php?column=brand&order=<?php echo $asc_or_desc; ?>">Brand <i class=" fa fa-sort<?php echo $column == 'brand' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                            <th><a style="color: #fff" href="inventory-1.php?column=brand&order=<?php echo $asc_or_desc; ?>">品牌/Brand <i class=" fa fa-sort<?php echo $column == 'brand' ? '-' . $up_or_down : ''; ?>"></i></a></th>
                                             <th><a style="color: #fff" href="inventory-1.php?column=category&order=<?php echo $asc_or_desc; ?>">ASIN <i class="fa fa-sort<?php echo $column == 'category' ? '-' . $up_or_down : ''; ?>"></i></a></th>
                                             <th><a style="color: #fff" href="inventory-1.php?column=cpu&order=<?php echo $asc_or_desc; ?>">FNSKU <i class="fa fa-sort<?php echo $column == 'cpu' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                            <th><a style="color: #fff" href="inventory-1.php?column=price&order=<?php echo $asc_or_desc; ?>">Original Price <i class="fa fa-sort<?php echo $column == 'price' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                            <th><a style="color: #fff" href="inventory-1.php?column=sold&order=<?php echo $asc_or_desc; ?>">Sold <i class="fa fa-sort<?php echo $column == 'sold' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                            <th><a style="color: #fff" href="inventory-1.php?column=shanghai&order=<?php echo $asc_or_desc; ?>">SH Inventory <i class="fa fa-sort<?php echo $column == 'shanghai' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                            <th><a style="color: #fff" href="inventory-1.php?column=transit&order=<?php echo $asc_or_desc; ?>">In Transit <i class="fa fa-sort<?php echo $column == 'transit' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                            <th><a style="color: #fff" href="inventory-1.php?column=nc&order=<?php echo $asc_or_desc; ?>">NC Inventory <i class="fa fa-sort<?php echo $column == 'nc' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                            <th><a style="color: #fff" href="inventory-1.php?column=quality&order=<?php echo $asc_or_desc; ?>">Note <i class="fa fa-sort<?php echo $column == 'quality' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                            <th><a style="color: #fff" href="inventory-1.php?column=price&order=<?php echo $asc_or_desc; ?>">价格/Original Price <i class="fa fa-sort<?php echo $column == 'price' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                            <th><a style="color: #fff" href="inventory-1.php?column=sold&order=<?php echo $asc_or_desc; ?>">卖出/Sold <i class="fa fa-sort<?php echo $column == 'sold' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                            <th><a style="color: #fff" href="inventory-1.php?column=shanghai&order=<?php echo $asc_or_desc; ?>">国内库存 <i class="fa fa-sort<?php echo $column == 'shanghai' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                            <th><a style="color: #fff" href="inventory-1.php?column=transit&order=<?php echo $asc_or_desc; ?>">运送中/In Transit <i class="fa fa-sort<?php echo $column == 'transit' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                            <th><a style="color: #fff" href="inventory-1.php?column=nc&order=<?php echo $asc_or_desc; ?>">海外仓库存 <i class="fa fa-sort<?php echo $column == 'nc' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                            <th><a style="color: #fff" href="inventory-1.php?column=quality&order=<?php echo $asc_or_desc; ?>">备注/Note <i class="fa fa-sort<?php echo $column == 'quality' ? '-' . $up_or_down : ''; ?>"></i></a></th>
 
                                         </tr>
 
@@ -487,7 +487,7 @@ if ($totalrow != 0) {
  
                                          </ul>
                                      </div>-->
-                                    <p style="color:#ff4">  NC Inventory: <?php print $ncall; ?> &nbsp; &nbsp;&nbsp; SH Inventory: <?php print $shall; ?>  &nbsp; &nbsp;&nbsp; In Transit Total: <?php print $transitall; ?></p>
+                                    <p style="color:#ff4">  海外仓库存: <?php print $ncall; ?> &nbsp; &nbsp;&nbsp; 国内库存: <?php print $shall; ?>  &nbsp; &nbsp;&nbsp; 运送中: <?php print $transitall; ?></p>
 
                                 </form>
                             </div>
@@ -500,7 +500,7 @@ if ($totalrow != 0) {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="footer-copy-right">
-                                <p>Copyright © 2019 <a href="https://www.unihorn.tech">Unihorn</a> All rights reserved.</p>
+                                <p>Copyright © 2021 <a href="https://www.unihorn.tech">yhystorage</a> All rights reserved.</p>
                             </div>
                         </div>
                     </div>

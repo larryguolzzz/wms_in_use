@@ -210,19 +210,19 @@ if (!is_null(@$data)) {
                                 </ul>
                             </li>
                             <li>
-                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Export & Import</span></a>
+                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">进/出口</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
                                     <li><a class="has-arrow" title="Import" href="supply.php"><span >Incoming</span></a>
                                         <ul class="submenu-angle" aria-expanded="false">     
                                             <li><a title="Supply" href="supply.php"><span class="mini-sub-pro">Supply & Return(NC)</span></a></li>
-                                            <li><a title="Supply" href="supplysh.php"><span class="mini-sub-pro">Supply & Return(SH)</span></a></li>
+                                            <!-- <li><a title="Supply" href="supplysh.php"><span class="mini-sub-pro">Supply & Return(SH)</span></a></li> -->
                                             <li><a title="Import Stock" href="stockaccept.php"><span class="mini-sub-pro">Import Stock</span></a></li>                                             
                                         </ul>
                                     </li>
                                     <li><a class="has-arrow" title="Export" href="outgoingnc.php"><span >Outgoing</span></a>
                                         <ul class="submenu-angle" aria-expanded="false">   
                                             <li><a title="Order & Replacement" href="outgoingnc.php"><span class="mini-sub-pro">Order & Replace(NC)</span></a></li>
-                                            <li><a title="Order & Replacement" href="outgoingsh.php"><span class="mini-sub-pro">Order & Replace(SH)</span></a></li>
+                                            <!-- <li><a title="Order & Replacement" href="outgoingsh.php"><span class="mini-sub-pro">Order & Replace(SH)</span></a></li> -->
                                             <li><a title="Batch Order" href="add-batch.php"><span class="mini-sub-pro">Batch Order</span></a></li>
                                             <li><a title="Export Stock" href="stocktrans.php"><span class="mini-sub-pro">Export Stock</span></a></li>                                             
                                         </ul>
@@ -230,15 +230,15 @@ if (!is_null(@$data)) {
                                 </ul>
                             </li>
                             <li>
-                                <a class="has-arrow" href="inventory-1.php" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">Warehouse</span></a>
+                                <a class="has-arrow" href="inventory-1.php" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">仓库库存</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
-                                    <li><a title="Inventory" href="inventory-1.php"><span class="mini-sub-pro">Inventory</span></a></li>
-                                    <li><a title="Shanghai" href="recordsh.php"><span class="mini-sub-pro">Record SH</span></a></li>
-                                    <li><a title="Greensboro" href="recordnc.php"><span class="mini-sub-pro">Record NC</span></a></li>
+                                    <li><a title="Inventory" href="inventory-1.php"><span class="mini-sub-pro">库存</span></a></li>
+                                    <li><a title="Shanghai" href="recordsh.php"><span class="mini-sub-pro">国内库存</span></a></li>
+                                    <li><a title="Greensboro" href="recordnc.php"><span class="mini-sub-pro">海外仓库存</span></a></li>
                                 </ul>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a class="has-arrow" href="bar-charts.html" aria-expanded="false"><i class="icon nalika-bar-chart icon-wrap"></i> <span class="mini-click-non">Charts</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
                                     <li><a title="Bar Charts" href="bar-charts.html"><span class="mini-sub-pro">Bar Charts</span></a></li>
@@ -249,7 +249,7 @@ if (!is_null(@$data)) {
                                     <li><a title="Sparkline Charts" href="sparkline.html"><span class="mini-sub-pro">Sparkline Charts</span></a></li>
                                     <li><a title="Peity Charts" href="peity.html"><span class="mini-sub-pro">Peity Charts</span></a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li>
                                 <a class="has-arrow" href="static-table.html" aria-expanded="false"><i class="icon nalika-table icon-wrap"></i> <span class="mini-click-non">批量发货</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
@@ -534,7 +534,7 @@ if (!is_null(@$data)) {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="footer-copy-right">
-                                <p>Copyright © 2019 <a href="https://www.unihorn.tech">Unihorn</a> All rights reserved.</p>
+                                <p>Copyright © 2021 <a href="https://www.unihorn.tech">yhystorage</a> All rights reserved.</p>
                             </div>
                         </div>
                     </div>

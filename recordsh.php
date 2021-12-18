@@ -287,11 +287,11 @@ for ($index = 0; $index < @count($data); $index++) {
                             <li>
                                 <a class="has-arrow" href="homepage.php">
                                     <i class="icon nalika-home icon-wrap"></i>
-                                    <span class="mini-click-non">Dashboard</span>
+                                    <span class="mini-click-non">仪表盘</span>
                                 </a>
                                 <ul class="submenu-angle" aria-expanded="false">
-                                    <li><a title="Dashboard" href="homepage.php"><span class="mini-sub-pro">Dashboard</span></a></li>                                
-                                    <li><a title="Notification" href="notification.php"><span class="mini-sub-pro">Notification</span></a></li>
+                                    <li><a title="Dashboard" href="homepage.php"><span class="mini-sub-pro">仪表盘</span></a></li>                                
+                                    <li><a title="Notification" href="notification.php"><span class="mini-sub-pro">通知</span></a></li>
                                 </ul>
                             </li>
 
@@ -299,28 +299,28 @@ for ($index = 0; $index < @count($data); $index++) {
                                 <a class="has-arrow" href="product-list.php">
 
                                     <i class="icon nalika-table icon-wrap"></i>
-                                    <span class="mini-click-non">Product</span>
+                                    <span class="mini-click-non">商品信息</span>
                                 </a>
                                 <ul class="submenu-angle" aria-expanded="false">                                   
-                                    <li><a title="Product List" href="product-list.php"><span class="mini-sub-pro">Product List</span></a></li>
-                                    <li><a title="Product Edit" href="product-edit.php"><span class="mini-sub-pro">Product Edit</span></a></li>
-                                    <li><a title="Product Detail" href="product-detail.php"><span class="mini-sub-pro">Product Detail</span></a></li>
+                                    <li><a title="Product List" href="product-list.php"><span class="mini-sub-pro">商品列表</span></a></li>
+                                    <li><a title="Product Edit" href="product-edit.php"><span class="mini-sub-pro">编辑商品</span></a></li>
+                                    <li><a title="Product Detail" href="product-detail.php"><span class="mini-sub-pro">商品详情</span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Export & Import</span></a>
+                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">进/出口</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
                                     <li><a class="has-arrow" title="Import" href="supply.php"><span >Incoming</span></a>
                                         <ul class="submenu-angle" aria-expanded="false">     
                                             <li><a title="Supply" href="supply.php"><span class="mini-sub-pro">Supply & Return(NC)</span></a></li>
-                                            <li><a title="Supply" href="supplysh.php"><span class="mini-sub-pro">Supply & Return(SH)</span></a></li>
+                                            <!-- <li><a title="Supply" href="supplysh.php"><span class="mini-sub-pro">Supply & Return(SH)</span></a></li> -->
                                             <li><a title="Import Stock" href="stockaccept.php"><span class="mini-sub-pro">Import Stock</span></a></li>                                             
                                         </ul>
                                     </li>
                                     <li><a class="has-arrow" title="Export" href="outgoingnc.php"><span >Outgoing</span></a>
                                         <ul class="submenu-angle" aria-expanded="false">   
                                             <li><a title="Order & Replacement" href="outgoingnc.php"><span class="mini-sub-pro">Order & Replace(NC)</span></a></li>
-                                            <li><a title="Order & Replacement" href="outgoingsh.php"><span class="mini-sub-pro">Order & Replace(SH)</span></a></li>
+                                            <!-- <li><a title="Order & Replacement" href="outgoingsh.php"><span class="mini-sub-pro">Order & Replace(SH)</span></a></li> -->
                                             <li><a title="Batch Order" href="add-batch.php"><span class="mini-sub-pro">Batch Order</span></a></li>
                                             <li><a title="Export Stock" href="stocktrans.php"><span class="mini-sub-pro">Export Stock</span></a></li>                                             
                                         </ul>
@@ -328,15 +328,15 @@ for ($index = 0; $index < @count($data); $index++) {
                                 </ul>
                             </li>
                             <li class="active">
-                                <a class="has-arrow" href="inventory-1.php" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">Warehouse</span></a>
+                                <a class="has-arrow" href="inventory-1.php" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">仓库库存</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
-                                    <li><a title="Inventory" href="inventory-1.php"><span class="mini-sub-pro">Inventory</span></a></li>
-                                    <li><a title="Shanghai" href="recordsh.php"><span class="mini-sub-pro">Record SH</span></a></li>
-                                    <li><a title="Greensboro" href="recordnc.php"><span class="mini-sub-pro">Record NC</span></a></li>
+                                    <li><a title="Inventory" href="inventory-1.php"><span class="mini-sub-pro">库存</span></a></li>
+                                    <li><a title="Shanghai" href="recordsh.php"><span class="mini-sub-pro">国内库存</span></a></li>
+                                    <li><a title="Greensboro" href="recordnc.php"><span class="mini-sub-pro">海外仓库存</span></a></li>
                                 </ul>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a class="has-arrow" href="bar-charts.html" aria-expanded="false"><i class="icon nalika-bar-chart icon-wrap"></i> <span class="mini-click-non">Charts</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
                                     <li><a title="Bar Charts" href="bar-charts.html"><span class="mini-sub-pro">Bar Charts</span></a></li>
@@ -347,7 +347,7 @@ for ($index = 0; $index < @count($data); $index++) {
                                     <li><a title="Sparkline Charts" href="sparkline.html"><span class="mini-sub-pro">Sparkline Charts</span></a></li>
                                     <li><a title="Peity Charts" href="peity.html"><span class="mini-sub-pro">Peity Charts</span></a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li>
                                 <a class="has-arrow" href="static-table.html" aria-expanded="false"><i class="icon nalika-table icon-wrap"></i> <span class="mini-click-non">批量发货</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
@@ -507,8 +507,8 @@ for ($index = 0; $index < @count($data); $index++) {
                                                     <i class="icon nalika-diamond"></i>
                                                 </div>
                                                 <div class="breadcomb-ctn">
-                                                    <h2>Shanghai Warehouse</h2>
-                                                    <p>Welcome to Unihorn Management System <span class="bread-ntd"></span></p>
+                                                    <h2>国内库存</h2>
+                                                    <p>欢迎使用鸿运仓库管理系统<span class="bread-ntd"></span></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -526,7 +526,7 @@ for ($index = 0; $index < @count($data); $index++) {
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="product-status-wrap">
-                                <h4>Record</h4>
+                                <h4>库存记录</h4>
 
                                 <div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
@@ -555,13 +555,13 @@ for ($index = 0; $index < @count($data); $index++) {
                                     <table style="width:98%;margin:auto;color: #fff">
 
                                         <tr>
-                                        <th><a style="color: #fff" href="recordsh.php?column=date&order=<?php echo $asc_or_desc; ?>">Date <i class=" fa fa-sort<?php echo $column == 'date' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                        <th><a style="color: #fff" href="recordsh.php?column=date&order=<?php echo $asc_or_desc; ?>">日期/Date <i class=" fa fa-sort<?php echo $column == 'date' ? '-' . $up_or_down : ''; ?>"></i></a></th>
                                         <th><a style="color: #fff" href="recordsh.php?column=subject&order=<?php echo $asc_or_desc; ?>">Subject <i class=" fa fa-sort<?php echo $column == 'subject' ? '-' . $up_or_down : ''; ?>"></i></a></th>
                                         <th><a style="color: #fff" href="recordsh.php?column=market&order=<?php echo $asc_or_desc; ?>">Market Place <i class="fa fa-sort<?php echo $column == 'market' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                        <th><a style="color: #fff" href="recordsh.php?column=ordernumber&order=<?php echo $asc_or_desc; ?>">Order No. <i class="fa fa-sort<?php echo $column == 'ordernumber' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                        <th><a style="color: #fff" href="recordsh.php?column=ship&order=<?php echo $asc_or_desc; ?>">Ship Carrier <i class="fa fa-sort<?php echo $column == 'ship' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                        <th><a style="color: #fff" href="recordsh.php?column=tracking&order=<?php echo $asc_or_desc; ?>">Tracking No. <i class="fa fa-sort<?php echo $column == 'tracking' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-                                        <th><a style="color: #fff" href="recordsh.php?column=productlist&order=<?php echo $asc_or_desc; ?>">Product List <i class="fa fa-sort<?php echo $column == 'productlist' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                        <th><a style="color: #fff" href="recordsh.php?column=ordernumber&order=<?php echo $asc_or_desc; ?>">订单号/Order No. <i class="fa fa-sort<?php echo $column == 'ordernumber' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                        <th><a style="color: #fff" href="recordsh.php?column=ship&order=<?php echo $asc_or_desc; ?>">承运公司/Ship Carrier <i class="fa fa-sort<?php echo $column == 'ship' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                        <th><a style="color: #fff" href="recordsh.php?column=tracking&order=<?php echo $asc_or_desc; ?>">追踪码/Tracking No. <i class="fa fa-sort<?php echo $column == 'tracking' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+                                        <th><a style="color: #fff" href="recordsh.php?column=productlist&order=<?php echo $asc_or_desc; ?>">商品列表/Product List <i class="fa fa-sort<?php echo $column == 'productlist' ? '-' . $up_or_down : ''; ?>"></i></a></th>
                                         <th><a style="color: #fff" >Note</a></th>
                                         </tr>
 
@@ -639,7 +639,7 @@ for ($index = 0; $index < @count($data); $index++) {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="footer-copy-right">
-                                <p>Copyright © 2019 <a href="https://www.unihorn.tech">Unihorn</a> All rights reserved.</p>
+                                <p>Copyright © 2021 <a href="https://www.unihorn.tech">yhystorage</a> All rights reserved.</p>
                             </div>
                         </div>
                     </div>

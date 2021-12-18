@@ -163,11 +163,11 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
                             <li >
                                 <a class="has-arrow" href="homepage.php">
                                     <i class="icon nalika-home icon-wrap"></i>
-                                    <span class="mini-click-non">Dashboard</span>
+                                    <span class="mini-click-non">仪表盘</span>
                                 </a>
                                 <ul class="submenu-angle" aria-expanded="false">
-                                    <li><a title="Dashboard" href="homepage.php"><span class="mini-sub-pro">Dashboard</span></a></li>                                
-                                    <li><a title="Notification" href="notification.php"><span class="mini-sub-pro">Notification</span></a></li>
+                                    <li><a title="Dashboard" href="homepage.php"><span class="mini-sub-pro">仪表盘</span></a></li>                                
+                                    <li><a title="Notification" href="notification.php"><span class="mini-sub-pro">通知</span></a></li>
                                 </ul>
                             </li>
 
@@ -175,28 +175,28 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
                                 <a class="has-arrow" href="product-list.php">
 
                                     <i class="icon nalika-table icon-wrap"></i>
-                                    <span class="mini-click-non">Product</span>
+                                    <span class="mini-click-non">商品信息</span>
                                 </a>
                                 <ul class="submenu-angle" aria-expanded="false">                                   
-                                    <li><a title="Product List" href="product-list.php"><span class="mini-sub-pro">Product List</span></a></li>
-                                    <li><a title="Product Edit" href="product-edit.php"><span class="mini-sub-pro">Product Edit</span></a></li>
-                                    <li><a title="Product Detail" href="product-detail.php"><span class="mini-sub-pro">Product Detail</span></a></li>
+                                    <li><a title="Product List" href="product-list.php"><span class="mini-sub-pro">商品列表</span></a></li>
+                                    <li><a title="Product Edit" href="product-edit.php"><span class="mini-sub-pro">编辑商品</span></a></li>
+                                    <li><a title="Product Detail" href="product-detail.php"><span class="mini-sub-pro">商品详情</span></a></li>
                                 </ul>
                             </li>
                             <li class="active">
-                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Export & Import</span></a>
+                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">进/出口</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
                                     <li><a class="has-arrow" title="Import" href="supply.php"><span >Incoming</span></a>
                                         <ul class="submenu-angle" aria-expanded="false">     
                                             <li><a title="Supply" href="supply.php"><span class="mini-sub-pro">Supply & Return(NC)</span></a></li>
-                                            <li><a title="Supply" href="supplysh.php"><span class="mini-sub-pro">Supply & Return(SH)</span></a></li>
+                                            <!-- <li><a title="Supply" href="supplysh.php"><span class="mini-sub-pro">Supply & Return(SH)</span></a></li> -->
                                             <li><a title="Import Stock" href="stockaccept.php"><span class="mini-sub-pro">Import Stock</span></a></li>                                             
                                         </ul>
                                     </li>
                                     <li class="active"><a class="has-arrow" title="Export" href="outgoingnc.php"><span >Outgoing</span></a>
                                         <ul class="submenu-angle" aria-expanded="false">   
                                             <li><a title="Order & Replacement" href="outgoingnc.php"><span class="mini-sub-pro">Order & Replace(NC)</span></a></li>
-                                            <li><a title="Order & Replacement" href="outgoingsh.php"><span class="mini-sub-pro">Order & Replace(SH)</span></a></li>
+                                            <!-- <li><a title="Order & Replacement" href="outgoingsh.php"><span class="mini-sub-pro">Order & Replace(SH)</span></a></li> -->
                                             <li><a title="Batch Order" href="add-batch.php"><span class="mini-sub-pro">Batch Order</span></a></li>
                                             <li><a title="Export Stock" href="stocktrans.php"><span class="mini-sub-pro">Export Stock</span></a></li>                                             
                                         </ul>
@@ -204,15 +204,15 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
                                 </ul>
                             </li>
                             <li>
-                                <a class="has-arrow" href="inventory-1.php" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">Warehouse</span></a>
+                                <a class="has-arrow" href="inventory-1.php" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">仓库库存</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
-                                    <li><a title="Inventory" href="inventory-1.php"><span class="mini-sub-pro">Inventory</span></a></li>
-                                    <li><a title="Shanghai" href="recordsh.php"><span class="mini-sub-pro">Record SH</span></a></li>
-                                    <li><a title="Greensboro" href="recordnc.php"><span class="mini-sub-pro">Record NC</span></a></li>
+                                    <li><a title="Inventory" href="inventory-1.php"><span class="mini-sub-pro">库存</span></a></li>
+                                    <li><a title="Shanghai" href="recordsh.php"><span class="mini-sub-pro">国内库存</span></a></li>
+                                    <li><a title="Greensboro" href="recordnc.php"><span class="mini-sub-pro">海外仓库存</span></a></li>
                                 </ul>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a class="has-arrow" href="bar-charts.html" aria-expanded="false"><i class="icon nalika-bar-chart icon-wrap"></i> <span class="mini-click-non">Charts</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
                                     <li><a title="Bar Charts" href="bar-charts.html"><span class="mini-sub-pro">Bar Charts</span></a></li>
@@ -223,7 +223,7 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
                                     <li><a title="Sparkline Charts" href="sparkline.html"><span class="mini-sub-pro">Sparkline Charts</span></a></li>
                                     <li><a title="Peity Charts" href="peity.html"><span class="mini-sub-pro">Peity Charts</span></a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li>
                                 <a class="has-arrow" href="static-table.html" aria-expanded="false"><i class="icon nalika-table icon-wrap"></i> <span class="mini-click-non">批量发货</span></a>
                                 <ul class="submenu-angle" aria-expanded="false">
@@ -382,7 +382,7 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
                                                 </div>
                                                 <div class="breadcomb-ctn">
                                                     <h2>Stock Transfer</h2>
-                                                    <p>Welcome to Unihorn Management System <span class="bread-ntd"></span></p>
+                                                    <p>欢迎使用鸿运仓库管理系统 <span class="bread-ntd"></span></p>
 
                                                 </div>
                                             </div>
@@ -407,14 +407,14 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
                                     <div>
 
                                         <form action="" method="post" name="form" enctype="multipart/form-data">
-                                            <div><h1 style="color:#fff">PICK UP FROM CURRENT INVENTORY</h1>
+                                            <div><h1 style="color:#fff">从当前库存中选择</h1>
                                                 <table style="width: 90%;margin:auto;color: #fff">
 
                                                     <tr>
                                                         <th>SKU</th>
-                                                        <th>Inventory</th>
-                                                        <th>Amount To Transfer</th>
-                                                        <th>Check</th>
+                                                        <th>库存</th>
+                                                        <th>转送数量</th>
+                                                        <th>确定</th>
 
                                                     </tr>
 
@@ -445,7 +445,7 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
                                             </div>
 
                                             <div>
-                                                <h1 style="color:#fff"><br>OR UPLOAD TXT/CSV FILE</h1>
+                                                <h1 style="color:#fff"><br>或者上传 txt/csv文件</h1>
                                                 <input name="file" type="file" size="16" maxlength="200" accept="application/csv">
                                                 <input name="subfile" type="submit" value="upload">
                                             </div>
@@ -506,13 +506,13 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
 
                                 <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12">
                                     <div>
-                                        <h1 style="color:#fff">TRANSFER LIST</h1>
+                                        <h1 style="color:#fff">转送列表</h1>
                                         <form method="post">
                                             <table style="width: 100%;margin:auto;color:#fff">
                                                 <tr>
                                                     <th>SKU</th>
-                                                    <th>Inventory</th>
-                                                    <th>To Transfer</th>
+                                                    <th>库存</th>
+                                                    <th>转送中</th>
                                                 </tr>
                                                 <?php
 //这段控制pickup表格
@@ -584,13 +584,13 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
                                             </table>     
 
                                             <div class="custom-pagination "  >
-                                                <p style="color:#ff4"><br>Total Amount: <?php print $total; ?></p>
-                                                <h1 style="color:#fff"><br>Conrimation </h1>
+                                                <p style="color:#ff4"><br>总数量: <?php print $total; ?></p>
+                                                <h1 style="color:#fff"><br>确认信息 </h1>
 
                                             </div>
 
                                             <div class="form-group">
-                                                <label class="control-label" style="color:#fff">Traking No.</label><br>
+                                                <label class="control-label" style="color:#fff">追踪码</label><br>
                                                 <span style="color:#fff;margin-right:1.25em"><input name="ship" type="radio" value="USPS" >USPS</span>
                                                 <span style="color:#fff;margin-right:1.25em"><input name="ship" type="radio" value="UPS">UPS</span>
                                                 <span style="color:#fff;margin-right:1.25em"><input name="ship" type="radio" value="Fedex">Fedex</span>
@@ -598,8 +598,8 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
 
                                                 <input type="text"  title="You need to input tracking No to confirm" required="" value="" name="dhl" id="username" class="form-control">
                                                 <label class="control-label" style="color:#fff"><br>Notes</label>
-                                                <input type="text"  placeholder="Please leave the notes for your attention" value="" name="note"  class="form-control">
-                                                <input name="confirm" type="submit" value="Click to confirm">
+                                                <input type="text"  placeholder="备注" value="" name="note"  class="form-control">
+                                                <input name="confirm" type="submit" value="确认">
                                             </div>
                                         </form> 
 
@@ -619,7 +619,7 @@ if (@isset($_POST['confirm']) && @count($_SESSION['todo']) != 0) {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="footer-copy-right">
-                                <p>Copyright © 2019 <a href="https://www.unihorn.tech">Unihorn</a> All rights reserved.</p>
+                                <p>Copyright © 2021 <a href="https://www.unihorn.tech">yhystorage</a> All rights reserved.</p>
                             </div>
                         </div>
                     </div>
